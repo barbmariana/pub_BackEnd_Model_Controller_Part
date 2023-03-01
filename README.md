@@ -23,7 +23,7 @@ Para criar nossa API, precisamos de um banco e um projeto bem estruturado. Preci
 Somos um Pub. Pretendemos criar uma API para utilizar na nossa página do cardápio e também na nossa seção de administrador para registrar e atualizar produtos. 
 Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categorias, Produtos, Fornecedor e Estoque. 
 
-<img src="diagrama.jpg"/>
+<img src="./src/images/diagrama.jpg"/>
 
 
  ## Tecnologias 🌐
