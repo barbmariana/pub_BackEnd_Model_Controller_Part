@@ -5,7 +5,11 @@
  Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia. Desta maneira, planejamos unir todo o front end, criado para o módulo 3, com a estrutura back end criada para este módulo 5.
  
  ## Objetivo 📍
- 
+⇨ Utilizar o padrão MVC;
+⇨ Utilizar os verbos HTTP seguindo o padrão REST;
+⇨ Implementar todas as operações de CRUD;
+⇨ Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises;
+
  ## Time 🧒
  
  <a href="https://github.com/AndrewDeras"> @andrewderas </a>
@@ -41,3 +45,7 @@ Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categor
  ## Tecnologias 🌐
  
  ## Guia de Uso :hammer:
+ 
+◼ Como instalar as dependências do projeto;
+◼ Como executar o projeto;
+◼ Quais são as rotas possíveis;
