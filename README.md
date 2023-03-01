@@ -8,9 +8,13 @@
  ## Time 🧒
  
  <a href="https://github.com/AndrewDeras"> @andrewderas </a>
+ <br>
  <a href="https://github.com/FabricioSalema"> @FabricioSalema </a>
+  <br>
  <a href="https://github.com/barbmariana"> @barbmariana </a>
- <a href="https://github.com/ruanthow"> @ruanthow </a>
+ <br>
+<a href="https://github.com/ruanthow"> @ruanthow </a>
+ <br>
  <a href="https://github.com/wesleyrick"> @wesleyrick </a>
 
  
