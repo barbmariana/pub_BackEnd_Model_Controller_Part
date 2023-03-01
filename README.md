@@ -16,10 +16,10 @@
  6. Criando a API
  
  
-## O Problema 
+## O Problema :shrug:
 Para criar nossa API, precisamos de um banco e um projeto bem estruturado. Precisamos entender quais são os objetivos de nossa aplicação e descobrir quais serão as entidades e rotas que existirão.
 
-## Modelando
+## Modelando  :abacus:
 Somos um Pub. Pretendemos criar uma API para utilizar na nossa página do cardápio e também na nossa seção de administrador para registrar e atualizar produtos. 
 Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categorias, Produtos, Fornecedor e Estoque. 
 
