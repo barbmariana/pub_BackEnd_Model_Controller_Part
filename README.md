@@ -7,6 +7,8 @@
  
  ## Time 🧒
  
+ @andrewderas
+ 
  ## Etapas :bookmark_tabs:
  1. Entendendo o problema
  2. Modelando o Banco   
