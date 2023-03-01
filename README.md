@@ -7,7 +7,7 @@
  
  ## Time 🧒
  
- <a href="https://github.com/AndrewDeras" target=blank >@andrewderas</a>
+ <a href="https://github.com/AndrewDeras" target="_blank"> @andrewderas </a>
 
  
  
