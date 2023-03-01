@@ -7,7 +7,11 @@
  
  ## Time 🧒
  
- <a href="https://github.com/AndrewDeras" target="_blank"> @andrewderas </a>
+ <a href="https://github.com/AndrewDeras"> @andrewderas </a>
+ <a href="https://github.com/FabricioSalema"> @FabricioSalema </a>
+ <a href="https://github.com/barbmariana"> @barbmariana </a>
+ <a href="https://github.com/ruanthow"> @ruanthow </a>
+ <a href="https://github.com/wesleyrick"> @wesleyrick </a>
 
  
  
