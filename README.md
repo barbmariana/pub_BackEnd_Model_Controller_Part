@@ -9,7 +9,13 @@
  
  ## Etapas :bookmark_tabs:
  1. Entendendo o problema
+ <br>
+ Para criar nossa API, precisamos de um banco e um projeto bem estruturado. Precisamos entender quais são os objetivos de nossa aplicação e descobrir quais serão as entidades e rotas que existirão
+ <br>
  2. Modelando o Banco
+   A- Modelo Conceitual 
+   <br>
+   
  3. Criando o Diagrama
  4. Criando o Banco
  5. Entendendo a API
