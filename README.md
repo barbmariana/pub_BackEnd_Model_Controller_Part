@@ -15,8 +15,10 @@
  <a href="https://github.com/AndrewDeras"> @andrewderas </a>
  <br>
  <a href="https://github.com/FabricioSalema"> @FabricioSalema </a>
-  <br>
+ <br>
  <a href="https://github.com/barbmariana"> @barbmariana </a>
+ <br>
+ <a href="https://github.com/KarenPedro"> @KarenPedro </a>
  <br>
 <a href="https://github.com/ruanthow"> @ruanthow </a>
  <br>
