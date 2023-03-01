@@ -2,6 +2,7 @@
  Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia.
  
  ## O projeto 💻
+ Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia. Desta maneira, planejamos unir todo o front end, criado para o módulo 3, com a estrutura back end criada para este módulo 5.
  
  ## Objetivo 📍
  
