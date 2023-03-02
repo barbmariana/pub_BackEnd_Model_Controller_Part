@@ -1,19 +1,19 @@
 {
-  "name": "api_pub_resilia_m5",
-  "description": "Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia.",
+  "name": "sqlite2",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {},
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "sequelize": "^6.29.0",
     "nodemon": "^2.0.20",
+    "sequelize": "^6.29.0",
     "sqlite": "^4.1.2",
     "sqlite3": "^5.1.4"
   }
