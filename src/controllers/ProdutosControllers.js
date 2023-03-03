@@ -3,7 +3,7 @@ const ModelProduto = require("../models/Produtos")
 
 
 module.exports = {
-    async Create(req, res) {
+    async create(req, res) {
         try {
             const produto = await ModelProduto.create({
 
@@ -22,7 +22,7 @@ module.exports = {
         }
     },
 
-    async List(req, res) {
+    async list(req, res) {
         try {
             const produtos = await ModelProduto.findAll();
             return res.json(produtos)
@@ -32,7 +32,7 @@ module.exports = {
         }
     },
 
-    async FindOne(req, res) {
+    async findOne(req, res) {
         try {
             const getPk = await ModelProduto.findByPk(req.params.id)
             return res.json(getPk)
@@ -41,26 +41,26 @@ module.exports = {
         }
     },
 
-    async Update(req, res) {
+    async update(req, res) {
         try {
-            const getPk = await ModelProduto.findByPk(req.params.id)
+            const produto = await ModelProduto.findByPk(req.params.id)
 
             const produtoUpdate = await ModelProduto.update(
                 {
-                    nome_produto: req.body.nome_produto || getPk.nome_produto,
-                    preco_produto: req.body.preco_produto || getPk.preco_produto ,
-                    img_produto: req.body.img_produto || getPk.img_produto,
-                    descricao: req.body.descricao || getPk.descricao,
-                    data_criacao: getPk.data_criacao,
+                    nome_produto: req.body.nome_produto || produto.nome_produto,
+                    preco_produto: req.body.preco_produto || produto.preco_produto ,
+                    img_produto: req.body.img_produto || produto.img_produto,
+                    descricao: req.body.descricao || produto.descricao,
+                    data_criacao: produto.data_criacao,
                     data_atualizacao: Date.now()
                 },
                 {
                     where: {
-                        id_produto: getPk
+                        id_produto: produto.id_produto
                     }
 
                 })
-            return res.json(produtoUpdate);
+            return res.send("Produto atualizado com sucesso")
         } catch (error) {
             return console.error("Error", error)
         }

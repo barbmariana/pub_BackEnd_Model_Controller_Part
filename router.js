@@ -3,15 +3,12 @@ const routes = express.Router();
 const produto = require ('./src/controllers/ProdutosControllers')
 const funcionario = require ('./src/controllers/FuncionariosController');
 
-const produto = require ('./src/controllers/ProdutosControllers');
-const funcionario = require ('./src/controllers/FuncionariosController');
-
 
 //Routes Produtos:
-routes.post("/createProduto", produto.Create);
-routes.get("/listProduto", produto.List);
-routes.get("/searchProduto/:id", produto.FindOne);
-routes.put("/updateProduto/:id", produto.Update)
+routes.post("/createProduto", produto.create);
+routes.get("/listProduto", produto.list);
+routes.get("/searchProduto/:id", produto.findOne);
+routes.put("/updateProduto/:id", produto.update)
 
 //Routes Funcionários:
 
