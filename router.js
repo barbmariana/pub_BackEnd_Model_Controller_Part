@@ -12,9 +12,7 @@ routes.get("/listProduto", produto.List);
 
 routes
 .get("/funcionarios", funcionario.ListarFuncionarios )
-.post("/createFuncionario", funcionario.CriarFuncionario)
-
-
+.post("/funcionarios", funcionario.CriarFuncionario)
 
 
 

@@ -10,7 +10,7 @@ module.exports ={
         catch (error) {
             console.log("Error o adicionar funcionário");
         }
-}, 
+    }, 
     async CriarFuncionario (req,res) {
         try {
             const funcionario = await ModelFuncionario.create({
@@ -22,7 +22,8 @@ module.exports ={
         } catch{
             console.log (`Erro ao cadastrar funcionário`)
         }
-        
     }
 }
+
+
 
