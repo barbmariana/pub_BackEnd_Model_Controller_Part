@@ -48,6 +48,13 @@ Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categor
  
  ## Guia de Uso :hammer:
  
-◼ Como instalar as dependências do projeto;
-◼ Como executar o projeto;
+◼ Como instalar as dependências do projeto e Como executar o projeto:
+
+```bash
+git clone https://github.com/barbmariana/API_Pub_Resilia_M5
+npm install
+npm start
+```
+
 ◼ Quais são as rotas possíveis;
+
