@@ -1,4 +1,4 @@
-# API PUB PEAK BLINDERS
+# API PUB PEAK BLINDERS :beers:
  Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia.
  
  ## O projeto 💻
