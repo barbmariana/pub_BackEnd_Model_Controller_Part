@@ -13,8 +13,10 @@ routes.get("/listProduto", produto.List);
 routes
 .get("/funcionarios", funcionario.ListarFuncionarios )
 .post("/funcionarios", funcionario.CriarFuncionario)
+.get("/funcionarios/:id", funcionario.ListarFuncionarioUnico)
+.put("/funcionarios/:id", funcionario.EditarFuncionario)
+.delete("/funcionarios/:id", funcionario.DeletarFuncionario)
 
 
 
-
-module.exports = routes
+module.exports = routes;
