@@ -2,7 +2,7 @@ const ModelFuncionario = require ('../models/Funcionario.js');
 
 module.exports = {
 
-    async ListarFuncionarios(req,res) {
+    async listarFuncionarios(req,res) {
         try {
             const funcionarios= await ModelFuncionario.findAll();
             return res.json(funcionarios)
@@ -11,7 +11,7 @@ module.exports = {
             console.log("Error o adicionar funcionário");
         }
     }, 
-    async CriarFuncionario (req,res) {
+    async criarFuncionario (req,res) {
         try {
             const funcionario = await ModelFuncionario.create({
                 id_funcionario : req.body.id_funcionario,
@@ -23,7 +23,7 @@ module.exports = {
             console.log (`Erro ao cadastrar funcionário`)
         }
     },
-    async ListarFuncionarioUnico(req,res) {
+    async listarFuncionarioUnico(req,res) {
         try{
             const id =  req.params.id
             const funcionario = await ModelFuncionario.findByPk(id);
@@ -33,7 +33,7 @@ module.exports = {
             console.log(error + `Erro ao encontrar funcionário de id ${id}`)
         }
     },
-    async EditarFuncionario (req,res){
+    async editarFuncionario (req,res){
         try{
             const id=req.params.id
             await ModelFuncionario.update({
@@ -51,7 +51,7 @@ module.exports = {
             console.log(error + `Erro ao dar update no funcionário de id: ${id}`)
         }
     },
-    async DeletarFuncionario (req,res){
+    async deletarFuncionario (req,res){
         try{
             const id=req.params.id
             await ModelFuncionario.destroy({

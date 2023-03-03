@@ -11,11 +11,11 @@ routes.get("/listProduto", produto.List);
 //Routes Funcionários:
 
 routes
-.get("/funcionarios", funcionario.ListarFuncionarios )
-.post("/funcionarios", funcionario.CriarFuncionario)
-.get("/funcionarios/:id", funcionario.ListarFuncionarioUnico)
-.put("/funcionarios/:id", funcionario.EditarFuncionario)
-.delete("/funcionarios/:id", funcionario.DeletarFuncionario)
+.get("/funcionarios", funcionario.listarFuncionarios )
+.post("/funcionarios", funcionario.criarFuncionario)
+.get("/funcionarios/:id", funcionario.listarFuncionarioUnico)
+.put("/funcionarios/:id", funcionario.editarFuncionario)
+.delete("/funcionarios/:id", funcionario.deletarFuncionario)
 
 
 
