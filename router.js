@@ -2,6 +2,7 @@ const express = require('express');
 const routes = express.Router();
 const produto = require ('./src/controllers/ProdutosControllers')
 const funcionario = require ('./src/controllers/FuncionariosController')
+const unidade = require('./src/models/Unidade')
 
 
 //Routes Produtos:
@@ -16,7 +17,6 @@ routes
 .get("/funcionarios/:id", funcionario.listarFuncionarioUnico)
 .put("/funcionarios/:id", funcionario.editarFuncionario)
 .delete("/funcionarios/:id", funcionario.deletarFuncionario)
-
 
 
 module.exports = routes;
