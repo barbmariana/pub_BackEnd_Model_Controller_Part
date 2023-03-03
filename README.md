@@ -1,4 +1,4 @@
-# API PUB PEAK BLINDERS
+# API PUB PEAK BLINDERS :beers:
  Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia.
  
  ## O projeto 💻
@@ -41,13 +41,20 @@ Para criar nossa API, precisamos de um banco e um projeto bem estruturado. Preci
 Somos um Pub. Pretendemos criar uma API para utilizar na nossa página do cardápio e também na nossa seção de administrador para registrar e atualizar produtos. 
 Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categorias, Produtos, Fornecedor e Estoque. 
 
-<img src="./src/images/diagrama.jpg"/>
+<img src="./src/images/novo_diagrama_pubBlinders.PNG"/>
 
 
  ## Tecnologias 🌐
  
  ## Guia de Uso :hammer:
  
-◼ Como instalar as dependências do projeto;
-◼ Como executar o projeto;
+◼ Como instalar as dependências do projeto e Como executar o projeto:
+
+```bash
+git clone https://github.com/barbmariana/API_Pub_Resilia_M5
+npm install
+npm start
+```
+
 ◼ Quais são as rotas possíveis;
+
