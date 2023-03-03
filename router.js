@@ -5,14 +5,14 @@ const funcionario = require('./src/controllers/FuncionariosController')
 const unidade = require("./src/controllers/UnidadesController");
 
 //Routes index:
-routes.get("/", (req, res) => {
-    try {
-        res.send("Bem vindo a API de nosso PUB")
-    } catch {
-        console.log("Problema ao carregar rota.")
+// routes.get("/", (req, res) => {
+//     try {
+//         res.send("Bem vindo a API de nosso PUB")
+//     } catch {
+//         console.log("Problema ao carregar rota.")
 
-    }
-})
+//     }
+// })
 
 //Routes Produtos:
 routes.post("/createProduto", produto.Create);
@@ -23,8 +23,12 @@ routes.put("/updateProduto/:id", produto.Update)
 //Routes Funcionários:
 
 routes
-    .get("/funcionarios", funcionario.ListarFuncionarios)
-    .post("/funcionarios", funcionario.CriarFuncionario)
+.get("/funcionarios", funcionario.listarFuncionarios )
+.post("/funcionarios", funcionario.criarFuncionario)
+.get("/funcionarios/:id", funcionario.listarFuncionarioUnico)
+.put("/funcionarios/:id", funcionario.editarFuncionario)
+.delete("/funcionarios/:id", funcionario.deletarFuncionario)
+
 
 // Routes unidades
 routes.get('/unidades', unidade.listarUnidades);
