@@ -10,7 +10,7 @@ class TestandoAPI extends React.Component {
     constructor(props){
         super(props)
         this.state ={
-            funcionarios:[]
+            funcionario:""
         }
 
         this.busca = this.busca.bind(this)
@@ -18,10 +18,11 @@ class TestandoAPI extends React.Component {
 
     }
 
-    busca(){
-    const funcionarios = fetch("http://localhost:4200/funcionarios");
-    const funcionariosJson = funcionarios.json();
-    this.setState({funcionarios:funcionariosJson})
+    async busca(){
+    const funcionarios = await fetch("http://localhost:4200/funcionarios");
+    const funcionariosJ= await funcionarios.json();
+    console.log(funcionariosJ)
+    this.setState({funcionario:funcionariosJ[0].nome_funcionario})
     };
 
 
@@ -40,7 +41,7 @@ class TestandoAPI extends React.Component {
         return <Container className={style.caixaCards} fluid>
             <Row className="my-5">
                 <button onClick={this.busca}>Get</button>
-                <h1>{this.state.funcionarios}</h1>
+                <h1>{this.state.funcionario}</h1>
             </Row>
             </Container>
         }
