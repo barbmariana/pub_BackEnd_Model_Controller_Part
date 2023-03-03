@@ -1,21 +1,14 @@
 const express = require('express');
 const routes = express.Router();
-<<<<<<< HEAD
 const produto = require('./src/controllers/ProdutosControllers')
 const funcionario = require('./src/controllers/FuncionariosController')
-=======
-const produto = require ('./src/controllers/ProdutosControllers')
-const funcionario = require ('./src/controllers/FuncionariosController');
->>>>>>> 2c8aef487a245b6492dce5db594b8a782216dea6
-
-const produto = require ('./src/controllers/ProdutosControllers');
-const funcionario = require ('./src/controllers/FuncionariosController');
+const unidade = require("./src/controllers/UnidadesController");
 
 //Routes index:
-routes.get("/", (req,res) =>{
-    try{
+routes.get("/", (req, res) => {
+    try {
         res.send("Bem vindo a API de nosso PUB")
-    }catch{
+    } catch {
         console.log("Problema ao carregar rota.")
 
     }
@@ -30,9 +23,8 @@ routes.put("/updateProduto/:id", produto.Update)
 //Routes Funcionários:
 
 routes
-<<<<<<< HEAD
-  .get("/funcionarios", funcionario.ListarFuncionarios)
-  .post("/funcionarios", funcionario.CriarFuncionario)
+    .get("/funcionarios", funcionario.ListarFuncionarios)
+    .post("/funcionarios", funcionario.CriarFuncionario)
 
 // Routes unidades
 routes.get('/unidades', unidade.listarUnidades);
@@ -43,13 +35,3 @@ routes.delete('/unidade/:id', unidade.deletarUnidade);
 
 
 module.exports = routes
-=======
-.get("/funcionarios", funcionario.listarFuncionarios )
-.post("/funcionarios", funcionario.criarFuncionario)
-.get("/funcionarios/:id", funcionario.listarFuncionarioUnico)
-.put("/funcionarios/:id", funcionario.editarFuncionario)
-.delete("/funcionarios/:id", funcionario.deletarFuncionario)
-
-
-module.exports = routes;
->>>>>>> 2c8aef487a245b6492dce5db594b8a782216dea6
