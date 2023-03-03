@@ -6,6 +6,17 @@ const estoque = require ('./src/controllers/EstoqueController')
 const unidade =  require ('./src/controllers/UnidadesController')
 
 
+//Routes index
+
+routes.get("/", (req, res) => {
+    try {
+        res.send("Bem vindo a API de nosso PUB")
+    } catch {
+        console.log("Problema ao carregar rota.")
+
+    }
+})
+
 //Routes Produtos:
 routes.post("/createProduto", produto.create);
 routes.get("/listProduto", produto.list);
