@@ -54,7 +54,7 @@ Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categor
 ◼ Como instalar as dependências do projeto e Como executar o projeto:
 
 ```bash
-git clone https://github.com/barbmariana/API_Pub_Resilia_M5
+git clone https://github.com/barbmariana/Pub_Resilia_M5
 npm install
 npm start
 ```
