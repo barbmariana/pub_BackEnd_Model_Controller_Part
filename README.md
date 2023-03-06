@@ -1,8 +1,9 @@
-# API PUB PEAK BLINDERS :beers:
- Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia.
+# PUB PEAK BLINDERS :beers:
+ Parte 1 - Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia. 
+ Parte 2 - Criando um site para demonstração da API. Este site faz parte do case em grupo para os projetos finais.
  
  ## O projeto 💻
- Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia. Desta maneira, planejamos unir todo o front end, criado para o módulo 3, com a estrutura back end criada para este módulo 5.
+Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia. Para concluir parte do projeto final, criamos uma estrutura front end para demonstração de funcionamento de nossa API. 
  
  ## Objetivo 📍
 ⇨ Utilizar o padrão MVC;
@@ -32,6 +33,7 @@
  3. Criando o Diagrama
  5. Entendendo a API
  6. Criando a API
+ 7. Integrando ao Front End
  
  
 ## O Problema :shrug:
@@ -54,6 +56,17 @@ Sendo assim, visualizamos algumas entidades para nosso banco. Elas são: Categor
 git clone https://github.com/barbmariana/API_Pub_Resilia_M5
 npm install
 npm start
+```
+<br>
+<h3> Executando o site <h3>
+```bash
+git clone https://github.com/barbmariana/API_Pub_Resilia_M5
+cd src
+cd views
+cd pub
+cd src
+npm i
+npm run dev
 ```
 
 ◼ Quais são as rotas possíveis;
