@@ -1,5 +1,6 @@
 # PUB PEAK BLINDERS :beers:
  Parte 1 - Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia. 
+ <br>
  Parte 2 - Criando um site para demonstração da API. Este site faz parte do case em grupo para os projetos finais.
  
  ## O projeto 💻
