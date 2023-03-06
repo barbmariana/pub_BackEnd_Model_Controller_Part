@@ -59,8 +59,8 @@ npm install
 npm start
 ```
 <br>
-<h3> Executando o site <h3>
- 
+
+◼ Como instalar as dependências do front end e Como executar o projeto: 
 ```bash
 git clone https://github.com/barbmariana/Pub_Resilia_M5
 cd src
