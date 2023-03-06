@@ -4,6 +4,7 @@ const produto = require ('./src/controllers/ProdutosControllers')
 const funcionario = require ('./src/controllers/FuncionariosController')
 const estoque = require ('./src/controllers/EstoqueController')
 const unidade =  require ('./src/controllers/UnidadesController')
+const fornecedores = require('./src/controllers/FornecedorController')
 
 
 //Routes index
@@ -47,5 +48,14 @@ routes.get('/unidade/:id', unidade.listarUnidade);
 routes.post('/unidade', unidade.cadastrarUnidade);
 routes.put('/unidade/:id', unidade.atualizarUnidade);
 routes.delete('/unidade/:id', unidade.deletarUnidade);
+
+// Routes fornecedor
+
+routes
+.get("/fornecedores", fornecedores.listarFornecedores )
+.post("/fornecedores", fornecedores.criarFornecedor)
+.get("/fornecedores/:id", fornecedores.listarFornecedorUnico)
+.put("/fornecedores/:id", fornecedores.editarFornecedor)
+.delete("/fornecedores/:id", fornecedores.deletarFornecedor)
 
 module.exports = routes;
