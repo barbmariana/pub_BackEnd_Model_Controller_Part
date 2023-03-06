@@ -14,6 +14,7 @@ class Rotas extends React.Component {
                 <Template>
                     <Routes>
                         <Route path='/listar' element={<Home/>} />
+                        <Route path='/' element={<Home/>} />
                     </Routes>
                 </Template>
             </BrowserRouter>
