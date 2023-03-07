@@ -34,7 +34,6 @@ Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A esc
  3. Criando o Diagrama
  5. Entendendo a API
  6. Criando a API
- 7. Integrando ao Front End
  
  
 ## O Problema :shrug:
@@ -58,18 +57,4 @@ git clone https://github.com/barbmariana/Pub_Resilia_M5
 npm install
 npm start
 ```
-<br>
-
-◼ Como instalar as dependências do front end e Como executar o projeto: 
-```bash
-git clone https://github.com/barbmariana/Pub_Resilia_M5
-cd src
-cd views
-cd pub
-cd src
-npm i
-npm run dev
-```
-
-◼ Quais são as rotas possíveis;
 
