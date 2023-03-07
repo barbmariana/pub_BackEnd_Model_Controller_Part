@@ -10,7 +10,7 @@ Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A esc
 ⇨ Utilizar o padrão MVC;
 ⇨ Utilizar os verbos HTTP seguindo o padrão REST;
 ⇨ Implementar todas as operações de CRUD;
-⇨ Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises;
+⇨ Utilizar o padrão de projeto (design pattern) DAO para abstração de transações no banco, com Promises; 
 
  ## Time 🧒
  
