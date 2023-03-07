@@ -1,10 +1,9 @@
 # PUB PEAK BLINDERS :beers:
- Parte 1 - Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia. 
- <br>
- Parte 2 - Criando um site para demonstração da API. Este site faz parte do case em grupo para os projetos finais.
+Criando uma API para o projeto de um Pub. Esta API é o trabalho de conclusão do módulo 5 do curso de Desenvolvimento Web da Resilia. 
+<br>
  
  ## O projeto 💻
-Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia. Para concluir parte do projeto final, criamos uma estrutura front end para demonstração de funcionamento de nossa API. 
+Nossa equipe foi escolhida para a criação de uma API para um aplicativo. A escolha do tema e das entidades foi feita pelo grupo afim de continuar o projeto do módulo 3 do curso de Desenvolvimento Web FullStack da Resilia.
  
  ## Objetivo 📍
 ⇨ Utilizar o padrão MVC;
